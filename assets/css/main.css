@@ -219,6 +219,103 @@ input, select, textarea {
 		clear: both;
 	}
 
+	.skill {
+		list-style:	none;
+		text-align: left;
+		font-size: 12px;
+	}
+
+	.skill-bar{
+		background: #eee;
+		height: 20px;
+		border-radius: 3px;
+		margin-bottom: 6px;
+		position: relative;
+	}
+
+	.skill-bar .label {
+		position: absolute;
+    top: 0px;
+    line-height: 20px;
+		left: 0px;
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+
+	.skill-bar .label.fonce{
+		background-color: rgba(50, 50, 50, 0.1);
+	}
+
+	.skill-bar .label.clair{
+		background-color: rgba(255, 255, 255, 0.3);
+	}
+
+	.skill-data {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		height: 20px;
+		border-radius: 3px;
+	}
+
+	.skill-php {
+		background-color: #787CB4;
+		color: white;
+	}
+
+	.skill-git {
+		background-color: #F54D27;
+		color: white;
+	}
+
+	.skill-uml {
+		background-color: #432D7C;
+		color: white;
+	}
+
+	.skill-java {
+		background-color: #5080A0;
+		color: white;
+	}
+
+	.skill-sql {
+		background-color: #7CB500;
+		color: white;
+	}
+
+	.skill-javascript {
+		background-color: #F7DF1E;
+		color: #333;
+	}
+
+	.skill-gdp {
+		background-color: #9CD500;
+		color: white;
+	}
+
+	.skill-pdg {
+		background-color: #00909A;
+		color: white;
+	}
+
+	.skill90 { width: 90%; }
+	.skill85 { width: 85%; }
+	.skill80 { width: 80%; }
+	.skill75 { width: 75%; }
+	.skill70 { width: 70%; }
+	.skill65 { width: 65%; }
+	.skill60 { width: 60%; }
+	.skill55 { width: 55%; }
+	.skill50 { width: 50%; }
+	.skill45 { width: 45%; }
+	.skill40 { width: 40%; }
+	.skill35 { width: 35%; }
+	.skill30 { width: 30%; }
+	.skill25 { width: 25%; }
+	.skill20 { width: 20%; }
+
+
+
 /* Container */
 
 	.container {
