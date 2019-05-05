@@ -258,6 +258,8 @@ input, select, textarea {
 		border-radius: 3px;
 	}
 
+		/* part 1 */
+
 	.skill-php {
 		background-color: #787CB4;
 		color: white;
@@ -265,11 +267,6 @@ input, select, textarea {
 
 	.skill-git {
 		background-color: #F54D27;
-		color: white;
-	}
-
-	.skill-uml {
-		background-color: #432D7C;
 		color: white;
 	}
 
@@ -288,13 +285,42 @@ input, select, textarea {
 		color: #333;
 	}
 
+	/* part 2 */
+
 	.skill-gdp {
-		background-color: #9CD500;
+		background-color: #236E6E;
+		color: white;
+	}
+
+	.skill-besoin {
+		background-color: #1F484D;
+		color: white;
+	}
+
+	.skill-uml {
+		background-color: #CAA0AA;
+		color: white;
+	}
+
+	/* part 3 */
+
+	.skill-docs {
+		background-color: #D35642;
+		color: white;
+	}
+
+	.skill-photoshop {
+		background-color: #ED7C54;
+		color: white;
+	}
+
+	.skill-office {
+		background-color: #EAB46A;
 		color: white;
 	}
 
 	.skill-pdg {
-		background-color: #00909A;
+		background-color: #80C8BD;
 		color: white;
 	}
 
