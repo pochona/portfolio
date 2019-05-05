@@ -342,6 +342,81 @@ input, select, textarea {
 
 
 
+
+/* timeline */
+.timeline ul {
+	padding: 1em 0 0 2em;
+	margin: 0;
+	list-style: none;
+	position: relative;
+	text-align: left;
+}
+
+.bullet::before {
+	content: ' ';
+	height: 100%;
+	width: 2px;
+	background-color: #F9F9F9;
+	position: absolute;
+	top: 0;
+	margin-left: 0.35em;
+	z-index: 1;
+}
+
+.timeline li {
+	padding: 0 !important;
+}
+
+.timeline li div{
+	display: inline-block;
+	margin: 1em 0;
+	vertical-align: top;
+}
+
+.timeline .bullet {
+	width: 1em;
+	height: 1em;
+	box-sizing: border-box;
+	border-radius: 50%;
+	background: #DDD;
+	z-index: 2;
+	margin: 1.3em 1em 0 1em;
+}
+
+.timeline .one {
+	border: 2px solid #9C3842;
+}
+
+.timeline .two {
+	border: 2px solid #ED6C10;
+}
+
+.timeline .three {
+	border: 2px solid #FCFA96;
+}
+
+.timeline .four {
+	border: 2px solid #A5C90F;
+}
+
+.timeline .five {
+	border: 2px solid #6F9C3D;
+}
+
+.timeline .year {
+	font-size: 0.75em;
+	padding-top: 0.25em;
+}
+
+.timeline .desc {
+	width: 70%;
+}
+
+.timeline .txt {
+	font-size: 0.8em;
+}
+
+
 /* Container */
 
 	.container {
