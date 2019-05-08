@@ -219,6 +219,13 @@ input, select, textarea {
 		clear: both;
 	}
 
+	span.cv{
+		font-weight: bold;
+		font-family: monospace;
+		font-size:120%;
+		cursor: pointer;
+	}
+
 	.skill {
 		list-style:	none;
 		text-align: left;
@@ -352,15 +359,21 @@ input, select, textarea {
 	text-align: left;
 }
 
-.bullet::before {
+.timeline ul::before {
 	content: ' ';
 	height: 100%;
 	width: 2px;
-	background-color: #F9F9F9;
+	background-color: #e08c95;
 	position: absolute;
 	top: 0;
-	margin-left: 0.35em;
-	z-index: 1;
+	left: 7.05em;
+	z-index: -1;
+}
+
+.timeline .trait{
+	height:100%;
+	width: 2px;
+	background-color: white;
 }
 
 .timeline li {
@@ -378,8 +391,7 @@ input, select, textarea {
 	height: 1em;
 	box-sizing: border-box;
 	border-radius: 50%;
-	background: #DDD;
-	z-index: 2;
+	background: rgb(229, 230, 230);
 	margin: 1.3em 1em 0 1em;
 }
 
@@ -406,15 +418,66 @@ input, select, textarea {
 .timeline .year {
 	font-size: 0.75em;
 	padding-top: 0.25em;
-}
-
-.timeline .desc {
-	width: 70%;
+	width: 4.54em;
 }
 
 .timeline .txt {
-	font-size: 0.8em;
+	font-size: 0.75em;
+	line-height: 0;
 }
+
+
+/* timeline secondaire */
+.timelineSec .exp-lo {
+	border: 2px solid #E96656;
+}
+
+.timelineSec .exp-groupama {
+	border: 2px solid #2A6352;
+}
+
+.timelineSec .exp-orange {
+	border: 2px solid #F86300;
+}
+
+.timelineSec .exp-ddc {
+	border: 2px solid #825D42;
+}
+
+.timelineSec .bullet {
+	background-color: rgb(233, 237, 237);
+}
+
+@media screen and (min-width: 1201px) {
+	.timeline .desc {
+		width: 82%;
+	}
+}
+
+@media screen and (min-width: 961px) and (max-width: 1200px) {
+	.timeline .desc {
+		width: 75%;
+	}
+}
+
+@media screen and (min-width: 737px) and (max-width: 960px) {
+	.timeline .desc {
+		width: 75%;
+	}
+}
+
+@media screen and (min-width: 590px) and (max-width: 736px) {
+	.timeline .desc {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 589px) {
+	.timeline .desc {
+		width: 65%;
+	}
+}
+
 
 
 /* Container */
@@ -2327,7 +2390,7 @@ input, select, textarea {
 
 			#nav ul li a {
 				display: block;
-				padding: 0.5em 1.5em 0.5em 1.5em;
+				padding: 0.3em 1.5em 0.3em 1.5em;
 				color: rgba(24, 24, 24, 0.5);
 				text-decoration: none;
 				outline: 0;
@@ -2447,11 +2510,15 @@ input, select, textarea {
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: rgba(195, 210, 210, 0.3);
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: rgba(189, 193, 192, 0.3);
+			}
+
+			#main > section.six {
+				background-color: #f5fafa;
 			}
 
 /* Wide */
